@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+.container h1 {
+    padding-top: 50%;
+}
+.card {
+    margin: relative;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+
+.swiss img {
+    
+}

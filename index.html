@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+            </a>
+            <a class="navbar-brand" href="javascript:void(0)">PrimeWay Travel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Other</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                          <li><a class="dropdown-item" href="galery.html">Galery</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="home" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="carousel2.jpg" alt="Los Angeles" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Cina</h3>
+                    <p>We had such a great time in Cina!</p>
+                    <button type="button" class="btn btn-success">Learn More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="balon udara.jpeg" alt="Chicago" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Capadocia</h3>
+                    <p>We had such a great time in Capadocia!</p>
+                    <button type="button" class="btn btn-success">Learn More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="orang.jpg" alt="New York" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>We had such a great time in LA!</p>
+                    <button type="button" class="btn btn-success">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="container" id="about">
+        <div class="container-img">
+            <img src="vacation.png" class="mx-auto d-block">
+        </div>
+
+        <h2 class="text-center text-white">✨PrimeWay Travel✨</h2>
+        <p class="text-center text-white">
+            <i>Discover unforgettable journey width <span class="text-danger">PrimeWay Travel</span>, where every trip is crafted for adventure, comfort, and extraordinary experiences!</i>
+            <i>About its contents, namely displaying interesting places for its users. not only that, we also display interesting destinations that can be visited by all of you, and can be the right place to find exciting, fun and challenging experiences.
+              PrimeWay Travel can also guide you all to visit interesting places that you want to visit.</i>
+        </p>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-4 mb-3 mb-sm-0">
+          <div class="card">
+            <span class="badge rounded-pill bg-warning text-dark">$75</span>
+            <div class="card-body">
+              <h4 class="card-title text-center">🌍Adventure Explore Packge🏕️</h4>
+              <p class="card-text text-center">Experience the thrill of adventure in Bali, Lombok, and Labuan Bajo! Trek Mount Rinjani, snokel in Gili Trawangan, and see komodo dragons up close</p>
+              <a href="#" class="btn btn-dark container-fluid">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <span class="badge rounded-pill bg-warning text-dark">$150</span>
+            <div class="card-body">
+              <h4 class="card-title text-center">✨Luxury Escape Package🌴</h4>
+              <p class="card-text text-center">Enjoy an exclusive gateway to paris, Switzerland, and Santorini. Stay in 5-star hotels, explore iconic landmarks, and indulge in VIP series for a truly luxurious experience.</p>
+              <a href="#" class="btn btn-dark container-fluid">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      <div class="col-sm-4">
+        <div class="card">
+            <span class="badge rounded-pill bg-warning text-dark">$250</span>
+          <div class="card-body">
+            <h4 class="card-title text-center">👨‍👩‍👧‍👦Family Fun Holiday Package🎢</h4>
+            <p class="card-text text-center">Create unforgettable family moments in Singapore, Malaysia, and Thailand! Visit theme parks, explore city attractions, and enjoy a hassle-free vacation with family-friendly services.</p>
+            <a href="#" class="btn btn-dark container-fluid">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+     <br> 
+    <hr color="white">
+  
+    <div class="container-fluid bg-dark ">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="text-light">Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="text-light">Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="text-light">Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3 text-light">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-outline-light" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-light">
+            <p>&copy; 2024 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
